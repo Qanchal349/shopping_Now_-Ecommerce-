@@ -1,0 +1,56 @@
+.footerSection{
+    color: #d4cece; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+   z-index:34;
+}
+
+.footerSection .middle{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+     
+}
+
+.footerSection >p{
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: left;
+    padding: 1rem;
+ 
+}
+
+.left >p{
+    margin: .4rem 2rem;
+    border-bottom: 1px solid #fff;
+    width: fit-content;  
+}
+
+.left >ul{
+    list-style: none;
+    padding: .1rem 2rem;
+    font-size: small;
+}
+
+.left >ul>li{
+    padding: .3rem 0;
+}
+
+.bottom{
+    font-size: small;
+    padding: 2rem;
+    color: #fff;
+}
+.middle .right{
+    padding-right: 2rem;
+}
+
+.middle .right >svg{
+      font-size: 1.4rem;
+      padding: 1rem;
+      cursor: pointer;
+}

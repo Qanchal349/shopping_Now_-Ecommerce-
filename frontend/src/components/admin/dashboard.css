@@ -1,0 +1,79 @@
+.dashboard{
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+
+.dashboard .detailNav{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.detailNav .forall{
+     background-color: #F8CFD0;
+    padding: 2rem 3rem;
+    border-radius: 5px;
+    box-shadow: -17px 13px 5px -13px #7C2335;
+    cursor: pointer;
+    margin: 2rem .5rem;
+}
+
+.forall .link{
+    text-decoration: none;
+    font-weight: 500;
+    color: #7C2335;
+}
+.forall >p{
+    font-weight: 500;
+    color: #7C2335;
+    margin-top: 1rem;
+    transition: all 0.5s ease;
+}
+
+.forall .link:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}  
+
+.forall .link:hover:after {
+	width: 100%;
+	background: #7C2335;
+}
+
+.graphRep{
+     width: 80%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin: 3rem 0rem;
+     flex-direction: column;
+}
+
+.graphRep .lineChart{
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.graphRep .doughnutChart{
+    flex: 1;
+    margin-top: 2rem;
+}
+
+.forall .amount{
+    text-decoration: none;
+    font-weight: 500;
+    color: #7C2335;
+    
+}

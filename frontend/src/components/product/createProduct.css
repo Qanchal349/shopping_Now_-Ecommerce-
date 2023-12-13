@@ -1,0 +1,40 @@
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;  
+  min-height: 100vh;
+}
+
+.form >form{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.form >form .input{
+     width: 70%;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+
+.form >form >button{
+    width: 70%;
+}
+
+#createProductFormImage{
+    display: flex;
+    width: 70%;
+    overflow-x: auto;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+#createProductFormImage>img{
+    margin-right: 1rem;
+}

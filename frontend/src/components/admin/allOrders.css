@@ -1,0 +1,86 @@
+.allOrders{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.allOrders .singleOrder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
+    width: 80%;
+    box-shadow: 1px 1px 1px rgb(197, 195, 196);
+
+}
+
+.allOrders .singleOrder >p{
+    margin-right: 2rem;
+    font-size: medium;
+    font-weight: 400;
+    color: rgb(132, 92, 100);
+}
+
+ .singleOrder .orderDelete{
+    cursor: pointer;
+    border: 1px solid rgb(223, 148, 148);
+    padding: .2rem .6rem;
+    border-radius: 3px;
+    box-shadow: 1px 2px 3px rgb(88, 33, 44);
+    
+}
+
+.orderDelete >svg{
+    color: darkred;
+}
+
+p >span{
+    font-weight: 500;
+    color: darkred;
+    font-size: smaller;
+}
+
+.status{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: smaller;
+}
+
+.status  .button{
+     color: darkred;
+     border: none;
+     background-color: #fff;
+     margin-top: .5rem;
+     cursor: pointer;
+     border: 1px solid rgb(161, 135, 135);
+     padding: .2rem .5rem;
+}
+
+@media screen and (max-width:750px) {
+
+    .allOrders .singleOrder{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        margin: 1rem;
+        width: 100%;
+    } 
+
+
+
+}
+
+@media screen and (max-width:600px) {
+  .status , .orderDelete{
+        display: none;
+    }
+
+
+}

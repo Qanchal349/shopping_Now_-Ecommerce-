@@ -1,0 +1,110 @@
+.orderInfo{
+     width: 100%;
+     display: flex;
+     align-items: baseline;
+     justify-content: center;
+     min-height: 100vh;
+     margin-top: 3rem;
+}
+
+.orderInfo .orderDetails{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.orderInfo .orderActions{
+    flex: 1;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+.orderDetails  > img{
+    width: 20%;
+}
+
+.orderDetails >p{
+     color: gray;
+     margin-top: 1rem;
+     font-size: small;
+     font-weight: 500;
+}
+.userDetail{
+    margin: 2rem 0rem;
+}
+
+.userDetail >p{
+    color: rgb(107, 105, 105);
+    margin-top: .3rem;
+    font-size: medium;
+    font-weight: 500;  
+}
+
+.userDetail >h4{
+    display: flex;
+    margin-top: 2rem;
+    color: rgb(70, 69, 69);
+    font-weight: 400;
+}
+
+.userDetail >h4 >p{
+    margin-left: 1rem;
+   
+}
+
+.userDetail >h5{
+    color: rgb(70, 69, 69);
+    margin-top: .5rem; 
+    display: flex;  
+}
+
+.userDetail >h5 >p{
+    color: darkred;
+    margin-left: .3rem;
+}
+
+.orderActions .selectOption >label{
+     font-size: medium;
+     font-weight: 400;
+     color: gray;
+}
+
+.orderActions .selectOption >select{
+     font-weight: 500;
+     padding: 0 2rem;
+     outline: none;
+     border: none;
+}
+
+.orderActions .orderLink{
+    margin-top: 3rem;
+    text-decoration: none;
+    background-color: rgb(80, 27, 37);
+    font-weight: 500;
+    color: #fff;
+    padding: .5rem 2rem;
+}
+
+@media screen  and (max-width:600px){
+    .orderInfo{
+        width: 100%;
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        min-height: 100vh;
+        margin-top: 3rem;
+        flex-direction: column;
+   }
+
+   .orderInfo .orderActions{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+}

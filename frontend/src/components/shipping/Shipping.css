@@ -1,0 +1,89 @@
+.shipping{
+   display: flex;
+   width: 100%;
+   min-height: 80vh; 
+   flex-direction: row;
+}
+.shippingAddress{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid rgb(219, 217, 217);
+}
+
+.shippingAddress >p{
+   margin-left: 2rem;
+   border-bottom: 1px solid rgb(220, 219, 219); 
+   padding-bottom: .4rem;
+   margin-bottom: 2rem;
+   width: fit-content; 
+}
+
+.address{
+     margin: 1rem;
+     font-size: 1rem;
+     
+}
+
+
+.green{
+    color: green;
+}
+
+.red{
+    color: rgb(235, 34, 34);
+}
+
+.save{
+    width: fit-content;
+    padding: .4rem 2rem;
+    margin-left: 2rem;
+    font-size: small;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.address >label{
+    font-size: small;
+    margin:0 1rem
+}
+
+.address >input{
+    font-size: small;
+     border: none;
+     outline: none;
+     font-size: 1rem;
+     border-bottom: 1px solid rgb(178, 176, 176);
+     text-align: justify;
+}
+
+.shipingInfo{
+    flex: 1;
+    margin-left: 2rem;
+}
+.shipingInfo >p{
+    color: rgb(86, 84, 84);
+    padding: .2rem 0rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+.shipingInfo >p>span{
+    color: rgb(48, 47, 47);
+    padding: .2rem 0rem;
+    font-size: .9rem;
+    font-weight: bold;
+    margin-left: .8rem;
+}
+
+.payment{
+     border: none;
+     outline: none;
+     padding: .4rem .9rem;
+     border-radius: 5px;
+     background-color: #7C2335;
+     color: #fff;
+     margin-top: 2rem;
+     cursor: pointer;
+}

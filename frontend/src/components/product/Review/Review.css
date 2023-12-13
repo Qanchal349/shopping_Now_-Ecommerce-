@@ -1,0 +1,11 @@
+.reviewCard{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     margin: 2rem;
+     padding: 2rem;
+     box-shadow: 10px 10px 16px -4px rgb(227, 175, 175);
+     border-radius: 5px;
+     background-color: #fff;
+}

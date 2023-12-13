@@ -1,0 +1,109 @@
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0px 8px 7px -4px rgba(33,3,7,0.7);
+    padding: 1rem;
+    margin: 1rem;
+    border-top: 1px solid rgb(224, 222, 222);
+}
+
+.image{
+    margin-right: 1rem;
+}
+
+.image >img{
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+}
+
+.cartInfo{
+    font-size: 1rem;
+    color: rgb(134, 133, 133);
+}
+
+.cartInfo >p:last-of-type{
+    font-size: .9rem;
+    color: rgb(112, 111, 111);
+    font-weight: 500;
+}
+
+.total{
+ 
+  font-size: 1rem;
+  color: rgb(134, 133, 133);
+ 
+}
+
+.total >p{
+    margin-bottom: .5rem;
+}
+
+.total>p>span{
+    color: black;
+    font-weight: bold;
+}
+
+.total .proceedOrder > button{
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: 400;
+    color: rgb(50, 7, 16);
+    padding: .3rem 1rem;
+    box-shadow: -1px 1px 3px 1px rgb(218, 218, 218); 
+    transition: all 0.5s;
+}
+
+.total .proceedOrder >button:hover{
+    background-color: #7C2335;
+    color: #fff;
+}
+
+.cart .actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.green{
+    color: green;
+    margin-top: .3rem; 
+}
+.red{
+    color: rgb(193, 25, 25);
+    margin-top: .3rem;
+}
+
+.cart .actions >button{
+     margin-top: .9rem;
+     padding: .2rem .6rem;
+     border: none;
+     background-color: #fff;
+     box-shadow: -1px 1px 3px 1px rgb(218, 218, 218);
+     color: #7C2335;
+}
+
+.image >p{
+    font-size: .7rem;
+    color: rgb(134, 133, 133);   
+}
+
+@media screen and (max-width:650px) {
+    .cart{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 70%;
+        background-color: #fff;
+        box-shadow: 0px 8px 7px -4px rgba(33,3,7,0.7);
+        padding: 1rem;
+        margin: 1rem;
+        border-top: 1px solid rgb(224, 222, 222);
+        flex-direction: column;
+    }
+}

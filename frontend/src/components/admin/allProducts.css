@@ -1,0 +1,96 @@
+.allAdminProducts{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.allAdminProducts .allAdminProductsDetailAndAction{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    width: 98%;
+    margin-top: 2rem;
+    box-shadow: 1px 1px 6px  rgb(78, 16, 28);
+    margin: 1rem 1rem; 
+   
+}
+
+.allAdminProducts .allAdminProductsDetailAndAction>div{
+     font-size: medium;
+     color: gray;
+     padding: 1rem;
+     display: flex;
+     flex-direction: column;
+     align-items: baseline;
+     justify-content: center;
+    
+}
+
+.allAdminProducts .allAdminProductsDetailAndAction>div>p>span{
+     color: black;
+     font-weight: bold;
+     margin-left: .5rem;
+}
+
+.allAdminProducts .allAdminProductsDetailAndAction>div .reference >span{
+    color: rgb(149, 147, 147);
+    font-weight: bold;
+    font-size: small;
+}
+
+
+.green{
+    color: green;
+    font-size: small;
+    font-weight: bold;
+}
+
+.red{
+    color: darkred;
+    font-size: small;
+    font-weight: bold;
+}
+
+
+.allAdminProducts .allAdminProductsDetailAndAction>div>button{
+     outline: none;
+     border: none;
+     padding: .2rem .8rem;
+     background-color: #fff;
+     margin-top: .4rem;
+     cursor: pointer;
+     background-color: darkred;
+     color: #fff;
+    border-radius: 3px;
+}
+
+.midDetail{
+    margin: .3rem 0rem;
+}
+
+ .linkUpdateProduct{
+    outline: none;
+     border: none;
+     padding: .1rem .6rem;
+     margin-top: .4rem;
+     cursor: pointer;
+     color: darkred;
+     background-color: #fff;
+     border-radius: 3px; 
+     font-weight: bold;
+     border: 1px solid darkred;
+}
+
+
+
+@media screen  and (max-width:620px){
+    .allAdminProducts .allAdminProductsDetailAndAction .hiddenDetailDiv{
+        display: none;
+    } 
+    
+}

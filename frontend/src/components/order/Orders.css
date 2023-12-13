@@ -1,0 +1,31 @@
+.orders{
+    width: 100%;
+    min-height: 100vh;
+  
+}
+
+
+.order {
+   
+    margin: 2rem; 
+}
+
+.order .singleOrderUser{
+    margin-bottom: 1rem;
+    box-shadow: 1px 2px 2px gray;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.order .singleOrderUser >div >p{
+    color: gray;
+    font-size: small;
+}
+
+.orders > .order > h1{
+     margin: auto;
+     color: #7C2335;
+     text-align: center;
+     margin-top: 3rem;
+}
