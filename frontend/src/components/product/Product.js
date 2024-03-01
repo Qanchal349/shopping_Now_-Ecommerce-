@@ -12,7 +12,7 @@ const Product = () => {
     const [rating, setRating] = useState(0)
     const [price, setPrice] = useState([0,200000])
     const [category ,setCategory] = useState('')
-    const categories = ['Wear',"Shirt",'Jeans',"Watches","PC"] // keyword
+    const categories = ['Wear',"Shirt",'Jeans',"Mobile","Laptop"] // keyword
     
     const [searchParams] = useSearchParams();
     const dispatch = useDispatch();

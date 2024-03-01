@@ -43,9 +43,6 @@ exports.paymentVerfication = catchAsyncError(async(req,res,next)=>{
          id:razorpay_order_id,
          status:'created'
     }
-
-    console.log(razorpay_order_id)
-
     const order = await Order.findOne({paymentInfo})  
   
     if(!order)

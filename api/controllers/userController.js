@@ -205,6 +205,7 @@ exports.updateProfileImage = catchAsynError(async(req,res,next)=>{
       public_id:cloud.public_id,
       url:cloud.secure_url 
   }  
+  console.log(profile)
   await User.findByIdAndUpdate(req.user.id,{profile},{
     new: true,
     runValidators: true,

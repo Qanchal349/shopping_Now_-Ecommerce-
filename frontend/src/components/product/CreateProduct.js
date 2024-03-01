@@ -21,8 +21,6 @@ const CreateProduct = () => {
 
   const submitHandler=(e)=>{
       e.preventDefault();
-   
-      e.preventDefault();
       const myForm = new FormData();
       myForm.append('name',name)
       myForm.append('category',category)

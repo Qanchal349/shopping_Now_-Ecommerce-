@@ -27,10 +27,11 @@ exports.createNewProduct = catchAsyncError(async(req,res,next)=>{
      });
    } 
 
+
     req.body.images = imagesLinks;
     req.body.user = req.user.id;
   
-    const product = await Product.create(req.body);
+     await Product.create(req.body);
     res.status(200).json({
         status:true,
         message:"Product Created Successfully" 

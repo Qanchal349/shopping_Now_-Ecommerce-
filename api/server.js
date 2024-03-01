@@ -27,11 +27,14 @@ process.on("uncaughtException",err=>{
       console.log(err.message)
       process.exit(1);
 })
-databse();
 
-const server = app.listen(process.env.PORT,()=>{
+databse();
+const port = process.env.PORT || 4000
+const server = app.listen(port,()=>{
      console.log("server listen at 4000")
 })
+
+
 
 // unhandled promise rejection 
 process.on("unhandledRejection",err=>{
